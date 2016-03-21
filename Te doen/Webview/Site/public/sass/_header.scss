@@ -1,0 +1,100 @@
+header{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+
+/*____LOGO____*/
+.logo{
+	float: left;
+	z-index: 99;
+	position: relative;
+}
+
+.logo a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo a:hover{
+	text-decoration: none;
+}
+
+.logo h1{
+	font-size: 60px;
+	padding-top: 0;
+	border: none;
+}
+
+/*____NAVIGATIE____*/
+.navbar{
+	min-height: 0;
+	float: right;
+	padding: 0;
+}
+
+.navbar-collapse{
+	padding: 0 !important;
+}
+
+.navbar-default{
+	background: none;
+	border: none;
+	margin-bottom: 0;
+}
+
+.navigatie{
+	padding: 0;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.navigatie li{
+	display: inline-block;
+	padding: 0 0 0 40px;
+}
+
+.navigatie a{
+	color: white;
+	font-size: 20px;
+}
+
+/*____GEBRUIKER____*/
+.gebruiker{
+	float: right;
+}
+
+.gebruiker a{ 
+	color: white;
+}
+
+/*____CAROUSEL____*/
+.carousel .item img{
+	position: absolute;
+ 	left: 50%;
+  	top: 50%;
+  	width: 100%;
+ 	-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.carousel .item{
+	height: 350px;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.carousel h3{
+	font-size: 55px;
+	margin-top: 0;
+}
+
+.carousel{
+	font-size: 30px;
+}
+
+

@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'gobold';
+  src: url("../fonts/gobold/gobold_regular-webfont.eot");
+  src: url("../fonts/gobold/gobold_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gobold/gobold_regular-webfont.woff") format("woff"), url("../fonts/gobold/gobold_regular-webfont.ttf") format("truetype"), url("../fonts/gobold/gobold_regular-webfont.svg#gobold_regular-webfont.eot") format("svg"); }
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  padding: 0; }
+
+body, html {
+  font-family: sans-serif, arial;
+  margin: auto;
+  color: black;
+  height: 100%; }
+
+a:hover, a:visited a:active {
+  text-decoration: none;
+  color: #777; }
+
+a {
+  color: #777; }
+
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px; }
+
+@media (min-width: 1077px) {
+  .nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer {
+    width: 1000px;
+    margin: auto; } }
+@media (max-width: 1077px) {
+  .nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer {
+    width: 95%;
+    margin: auto; } }
+.navbar {
+  background: none;
+  border: none;
+  padding-top: 10px;
+  margin: auto;
+  border-radius: 0; }
+
+nav {
+  background: none; }
+
+.logo {
+  font-size: 50px;
+  font-family: 'gobold';
+  padding: 15px 0 15px 0; }
+
+.nav-boven .navbar-default .navbar-brand {
+  color: white; }
+
+.nav-boven .navbar-default .navbar-brand:hover {
+  color: white; }
+
+.nav-boven .navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.navbar-nav li a {
+  font-size: 20px;
+  padding: 30px 0 10px 30px; }
+
+.hoofding img {
+  margin: auto; }
+
+.bijschrift_hoofding {
+  display: inline-block;
+  width: 51%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 5px;
+  font-size: 35px;
+  line-height: 38px;
+  margin: 10% 25% 0 25%;
+  text-align: center; }
+
+#onder_nav {
+  position: fixed;
+  display: none;
+  background: white !important;
+  border-bottom: 5px solid #777 !important; }
+
+@media (min-width: 768px) and (max-width: 1077px) {
+  .hoofding {
+    width: 100%;
+    height: 60%; }
+
+  #wall_1 {
+    background: url(../afbeeldingen/hoofding_afbeelding.jpg) no-repeat;
+    background-size: 100%;
+    background-height: 100%; } }
+@media (max-width: 767px) {
+  .nav-boven .navbar-default .navbar-brand {
+    color: black; }
+
+  .nav-boven .navbar-default .navbar-brand:hover {
+    color: black; }
+
+  .nav-boven .navbar-default .navbar-nav > li > a {
+    color: black; } }
+@media (min-width: 1077px) {
+  .hoofding {
+    width: 100%;
+    height: 100%; }
+
+  #wall_1 {
+    background: url(../afbeeldingen/hoofding_afbeelding.jpg) fixed no-repeat;
+    background-size: 100%; } }
+.realisaties_container, .afbeelding_responsive {
+  border-bottom: 5px solid #777; }
+
+.menu-filter {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.realisatie {
+  margin-bottom: 20px; }
+  .realisatie a {
+    color: black; }
+
+.titel {
+  font-size: 20px; }
+
+.jaar {
+  font-style: italic; }
+
+@media (min-width: 1077px) {
+  .website img {
+    height: 200px;
+    margin-bottom: 10px; }
+
+  .logos img {
+    height: 100px;
+    margin: 50px 0 60px 0; }
+
+  .realisaties_container {
+    margin-top: 110px; } }
+@media (max-width: 1077px) {
+  .website img, .logos img {
+    width: 100%;
+    margin-bottom: 10px; } }
+.afbeelding_responsive {
+  margin: 30px 0 20px 0;
+  padding-bottom: 20px; }
+
+.afbeelding_responsive img {
+  margin: auto; }
+
+.bijschrift_responsive {
+  font-size: 35px; }
+
+.naam, .opleidingen {
+  margin-bottom: 20px; }
+
+.over_mij_titel {
+  font-size: 20px; }
+
+.school {
+  margin-left: 20px; }
+
+.school_1 {
+  padding-bottom: 15px; }
+
+.over_mij ul li {
+  margin-bottom: 10px; }
+
+.over_mij_container {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #777 !important; }
+
+@media (max-width: 1077px) {
+  .over_mij_rechts {
+    margin-left: 10px;
+    margin-top: 10px; } }
+input {
+  display: block;
+  width: 95%;
+  margin: 10px 0 10px 0; }
+
+textarea {
+  display: block;
+  width: 95%;
+  margin-top: 10px;
+  height: 164px; }
+
+label {
+  margin-top: 10px; }
+
+#verzenden {
+  display: block;
+  width: 200px; }
+
+.bijschrift_contact {
+  font-size: 15px; }
+
+.alert-danger {
+  font-size: 20px;
+  line-height: 40px; }
+
+.success {
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  font-size: 20px; }
+
+.contact_container {
+  margin-bottom: 20px; }
+
+.footer_container, footer {
+  background-color: #777; }
+
+footer a, .footer a, .footer, footer, footer a:hover {
+  color: white; }
+
+.logo_footer {
+  font-size: 50px;
+  font-family: 'gobold';
+  padding: 15px 0 15px 0;
+  text-align: center; }
+
+.footer {
+  padding: 20px 0 20px 0; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  line-height: 50px;
+  border-top: solid 2px white; }
+
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 10px; }
+
+.footer ul {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */

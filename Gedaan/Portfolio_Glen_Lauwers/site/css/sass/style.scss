@@ -1,0 +1,62 @@
+@import "_reset.scss";
+
+@font-face
+{ 
+	font-family: 'gobold';
+	src: url('../fonts/gobold/gobold_regular-webfont.eot');
+	src: url('../fonts/gobold/gobold_regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/gobold/gobold_regular-webfont.woff') format('woff'),
+	     url('../fonts/gobold/gobold_regular-webfont.ttf') format('truetype'),
+	     url('../fonts/gobold/gobold_regular-webfont.svg#gobold_regular-webfont.eot') format('svg');
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11, .col-md-12
+{
+	padding: 0;
+}
+
+body, html
+{
+	font-family: sans-serif, arial;
+	margin: auto;
+	color: black;
+	height: 100%;
+}
+
+a:hover, a:visited a:active
+{
+	text-decoration: none;
+	color: #777;
+}
+
+a
+{
+	color: #777;
+}
+
+h2
+{
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+@media (min-width: 1077px){
+	.nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer{
+		width: 1000px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 1077px){
+	.nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer{
+		width: 95%;
+		margin: auto;
+	}
+}
+
+@import "_header.scss";
+@import "_realisaties.scss";
+@import "_over-mij.scss";
+@import "_contact.scss";
+@import "_footer.scss";

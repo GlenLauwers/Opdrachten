@@ -1,0 +1,19 @@
+/* Add your CSS @import rules after this line */
+
+.navbar-default{
+	border: none;
+	background: none;
+}
+
+.logo{
+	float: left;
+}
+
+/*____FOOTER____*/
+footer .links{
+	float: left;
+}
+
+footer .rechts{
+	float: right;
+}

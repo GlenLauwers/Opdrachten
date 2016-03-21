@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'gobold';
+  src: url("../fonts/gobold/gobold_regular-webfont.eot");
+  src: url("../fonts/gobold/gobold_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/gobold/gobold_regular-webfont.woff") format("woff"), url("../fonts/gobold/gobold_regular-webfont.ttf") format("truetype"), url("../fonts/gobold/gobold_regular-webfont.svg#gobold_regular-webfont.eot") format("svg");
+}
+
+/* line 14, sass/style.scss */
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  padding: 0;
+}
+
+/* line 19, sass/style.scss */
+body, html {
+  font-family: sans-serif, arial;
+  margin: auto;
+  color: black;
+  height: 100%;
+}
+
+/* line 27, sass/style.scss */
+a:hover, a:visited a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+/* line 33, sass/style.scss */
+a {
+  color: #777;
+}
+
+/* line 38, sass/style.scss */
+h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 1077px) {
+  /* line 45, sass/style.scss */
+  .nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media (max-width: 1077px) {
+  /* line 52, sass/style.scss */
+  .nav-boven, .onder_nav, .realisaties, .over_mij, .contact, .footer {
+    width: 95%;
+    margin: auto;
+  }
+}
+/* line 1, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.navbar {
+  background: none;
+  border: none;
+  padding-top: 10px;
+  margin: auto;
+  border-radius: 0;
+}
+
+/* line 9, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+nav {
+  background: none;
+}
+
+/* line 13, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.logo {
+  font-size: 50px;
+  font-family: 'gobold';
+  padding: 15px 0 15px 0;
+}
+
+/* line 20, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.nav-boven .navbar-default .navbar-brand {
+  color: white;
+}
+
+/* line 25, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.nav-boven .navbar-default .navbar-brand:hover {
+  color: white;
+}
+
+/* line 29, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.nav-boven .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+/* line 38, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.navbar-nav li a {
+  font-size: 20px;
+  padding: 30px 0 10px 30px;
+}
+
+/* line 45, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.hoofding img {
+  margin: auto;
+}
+
+/* line 49, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+.bijschrift_hoofding {
+  display: inline-block;
+  width: 51%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 5px;
+  font-size: 35px;
+  line-height: 38px;
+  margin: 10% 25% 0 25%;
+  text-align: center;
+}
+
+/* line 61, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+#onder_nav {
+  position: fixed;
+  display: none;
+  background: white!important;
+  border-bottom: 5px solid #777!important;
+}
+
+@media (min-width: 768px) and (max-width: 1077px) {
+  /* line 69, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  .hoofding {
+    width: 100%;
+    height: 60%;
+  }
+
+  /* line 74, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  #wall_1 {
+    background: url(../afbeeldingen/hoofding_afbeelding.jpg) no-repeat;
+    background-size: 100%;
+    background-height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 83, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  .nav-boven .navbar-default .navbar-brand {
+    color: black;
+  }
+
+  /* line 88, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  .nav-boven .navbar-default .navbar-brand:hover {
+    color: black;
+  }
+
+  /* line 92, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  .nav-boven .navbar-default .navbar-nav > li > a {
+    color: black;
+  }
+}
+@media (min-width: 1077px) {
+  /* line 98, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  .hoofding {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* line 103, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_header.scss */
+  #wall_1 {
+    background: url(../afbeeldingen/hoofding_afbeelding.jpg) fixed no-repeat;
+    background-size: 100%;
+  }
+}
+/* line 1, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.realisaties_container, .afbeelding_responsive {
+  border-bottom: 5px solid #777;
+}
+
+/* line 6, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.menu-filter {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 12, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.realisatie {
+  margin-bottom: 20px;
+}
+/* line 15, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.realisatie a {
+  color: black;
+}
+
+/* line 20, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.titel {
+  font-size: 20px;
+}
+
+/* line 24, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.jaar {
+  font-style: italic;
+}
+
+@media (min-width: 1077px) {
+  /* line 33, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+  .website img {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  /* line 42, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+  .logos img {
+    height: 100px;
+    margin: 50px 0 60px 0;
+  }
+
+  /* line 49, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+  .realisaties_container {
+    margin-top: 110px;
+  }
+}
+@media (max-width: 1077px) {
+  /* line 58, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+  .website img, .logos img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+/* line 66, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.afbeelding_responsive {
+  margin: 30px 0 20px 0;
+  padding-bottom: 20px;
+}
+
+/* line 71, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.afbeelding_responsive img {
+  margin: auto;
+}
+
+/* line 75, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_realisaties.scss */
+.bijschrift_responsive {
+  font-size: 35px;
+}
+
+/* line 2, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.naam, .opleidingen {
+  margin-bottom: 20px;
+}
+
+/* line 6, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.over_mij_titel {
+  font-size: 20px;
+}
+
+/* line 10, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.school {
+  margin-left: 20px;
+}
+
+/* line 14, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.school_1 {
+  padding-bottom: 15px;
+}
+
+/* line 18, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.over_mij ul li {
+  margin-bottom: 10px;
+}
+
+/* line 22, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+.over_mij_container {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #777!important;
+}
+
+@media (max-width: 1077px) {
+  /* line 29, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_over-mij.scss */
+  .over_mij_rechts {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
+/* line 1, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+input {
+  display: block;
+  width: 95%;
+  margin: 10px 0 10px 0;
+}
+
+/* line 7, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+textarea {
+  display: block;
+  width: 95%;
+  margin-top: 10px;
+  height: 164px;
+}
+
+/* line 14, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+label {
+  margin-top: 10px;
+}
+
+/* line 18, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+#verzenden {
+  display: block;
+  width: 200px;
+}
+
+/* line 23, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+.bijschrift_contact {
+  font-size: 15px;
+}
+
+/* line 27, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+.alert-danger {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* line 33, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+.success {
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* line 41, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_contact.scss */
+.contact_container {
+  margin-bottom: 20px;
+}
+
+/* line 1, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+.footer_container, footer {
+  background-color: #777;
+}
+
+/* line 5, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+footer a, .footer a, .footer, footer, footer a:hover {
+  color: white;
+}
+
+/* line 9, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+.logo_footer {
+  font-size: 50px;
+  font-family: 'gobold';
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+/* line 16, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+.footer {
+  padding: 20px 0 20px 0;
+}
+
+/* line 20, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+footer {
+  text-align: center;
+  padding: 20px;
+  line-height: 50px;
+  border-top: solid 2px white;
+}
+
+/* line 27, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* line 32, /Users/glenlauwers/Documents/Opdrachten/Gedaan/Portfolio_Glen_Lauwers/site/css/sass/_footer.scss */
+.footer ul {
+  margin-bottom: 20px;
+}

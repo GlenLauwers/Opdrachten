@@ -1,0 +1,32 @@
+/* line 1, sass/style.scss */
+body {
+  padding-top: 10px;
+}
+
+/* line 5, sass/style.scss */
+.container {
+  max-width: 1200px;
+}
+
+/*____LOGO____*/
+/* line 2, sass/_header.scss */
+.logo {
+  float: left;
+}
+
+/*____NAVIGATIE____*/
+/* line 7, sass/_header.scss */
+.navbar-default {
+  border: none;
+  background: none;
+}
+
+/* line 1, sass/_sinergio.scss */
+footer .links {
+  float: left;
+}
+
+/* line 5, sass/_sinergio.scss */
+footer .rechts {
+  float: right;
+}

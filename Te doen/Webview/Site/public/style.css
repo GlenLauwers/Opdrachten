@@ -1,0 +1,198 @@
+/* line 1, sass/style.scss */
+body {
+  font-family: helvetica, Arial;
+  font-size: 15px;
+  background-color: #F5F5F5;
+}
+
+/* line 7, sass/style.scss */
+h1 {
+  font-size: 30px;
+  border-top: solid 3px black;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+/* line 1, sass/_header.scss */
+header {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  right: 0;
+}
+
+/*____LOGO____*/
+/* line 11, sass/_header.scss */
+.logo {
+  float: left;
+  z-index: 99;
+  position: relative;
+}
+
+/* line 17, sass/_header.scss */
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 22, sass/_header.scss */
+.logo a:hover {
+  text-decoration: none;
+}
+
+/* line 26, sass/_header.scss */
+.logo h1 {
+  font-size: 60px;
+  padding-top: 0;
+  border: none;
+}
+
+/*____NAVIGATIE____*/
+/* line 33, sass/_header.scss */
+.navbar {
+  min-height: 0;
+  float: right;
+  padding: 0;
+}
+
+/* line 39, sass/_header.scss */
+.navbar-collapse {
+  padding: 0 !important;
+}
+
+/* line 43, sass/_header.scss */
+.navbar-default {
+  background: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+/* line 49, sass/_header.scss */
+.navigatie {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 56, sass/_header.scss */
+.navigatie li {
+  display: inline-block;
+  padding: 0 0 0 40px;
+}
+
+/* line 61, sass/_header.scss */
+.navigatie a {
+  color: white;
+  font-size: 20px;
+}
+
+/*____GEBRUIKER____*/
+/* line 67, sass/_header.scss */
+.gebruiker {
+  float: right;
+}
+
+/* line 71, sass/_header.scss */
+.gebruiker a {
+  color: white;
+}
+
+/*____CAROUSEL____*/
+/* line 76, sass/_header.scss */
+.carousel .item img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* line 85, sass/_header.scss */
+.carousel .item {
+  height: 350px;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+/* line 91, sass/_header.scss */
+.carousel h3 {
+  font-size: 55px;
+  margin-top: 0;
+}
+
+/* line 96, sass/_header.scss */
+.carousel {
+  font-size: 30px;
+}
+
+/* line 1, sass/_rij1.scss */
+.rij1 {
+  padding: 20px 0;
+}
+
+/*____LOGIN____*/
+/* line 6, sass/_rij1.scss */
+.rij1_login label {
+  display: block;
+}
+
+/* line 10, sass/_rij1.scss */
+.rij1_login input {
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid thin black;
+  margin-bottom: 10px;
+}
+
+/*____REGISTREREN____*/
+/* line 19, sass/_rij1.scss */
+.rij1_register input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 26, sass/_rij1.scss */
+.rij1_register #registreren {
+  width: 200px;
+}
+
+/* line 30, sass/_rij1.scss */
+.rij1_register input[type='checkbox'] {
+  display: inline;
+  width: initial;
+  padding-right: 5px;
+}
+
+/* line 1, sass/_footer.scss */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* line 7, sass/_footer.scss */
+footer a, footer a:hover {
+  color: white;
+}
+
+/* line 11, sass/_footer.scss */
+footer .links {
+  float: left;
+}
+
+/* line 15, sass/_footer.scss */
+footer .rechts {
+  float: right;
+}
+
+/* line 19, sass/_footer.scss */
+footer p {
+  margin-bottom: 0;
+}

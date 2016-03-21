@@ -1,0 +1,33 @@
+.naam, .opleidingen
+{
+	margin-bottom: 20px;
+}
+
+.over_mij_titel{
+	font-size: 20px;
+}
+
+.school{
+	margin-left: 20px;
+}
+
+.school_1{
+	padding-bottom: 15px;
+}
+
+.over_mij ul li{
+	margin-bottom: 10px;
+}
+
+.over_mij_container{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 5px solid #777!important;
+}
+
+@media (max-width: 1077px){
+	.over_mij_rechts{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+}

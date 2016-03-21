@@ -1,0 +1,78 @@
+.realisaties_container, .afbeelding_responsive{
+	border-bottom: 5px solid #777;
+}
+
+.menu-filter
+{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.realisatie
+{
+	margin-bottom: 20px;
+	a
+	{
+		color: black;
+	}
+}
+
+.titel{
+	font-size: 20px;
+}
+
+.jaar{
+	font-style: italic;
+}
+
+@media (min-width: 1077px){
+
+	.website
+	{
+		img
+		{
+			height: 200px;
+			margin-bottom: 10px;
+		}
+	}
+	
+	.logos
+	{
+		img
+		{
+			height: 100px;
+			margin: 50px 0 60px 0;
+		}
+	}
+
+	.realisaties_container
+	{
+		margin-top: 110px;
+	}
+}
+
+@media (max-width: 1077px){
+	.website, .logos
+	{
+		img
+		{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+
+}
+
+.afbeelding_responsive{
+	margin: 30px 0 20px 0;
+	padding-bottom: 20px;
+}
+
+.afbeelding_responsive img{
+	margin: auto;
+}
+
+.bijschrift_responsive{
+	font-size: 35px;
+}
+
