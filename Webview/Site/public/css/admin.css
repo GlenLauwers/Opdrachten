@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: helvetica;
+	color: black;
+}
+
+a{
+	color: black;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11, .col-md-12{
+	padding: 0;
+}
+
+/*________________________________________________HOOFDING________________________________________________________*/
+
+.hoofding{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom:  #0098DA solid thick;
+}
+
+.content{
+	width: 85%;
+	margin: auto;
+}
+
+.links{
+	float: right;
+	font-size: 15px;
+}
+
+.links ul li{
+	display: inline;
+	margin-left: 20px;
+}
+
+.gebruiker{
+	float: right;
+}
+
+/*________________________________________________HOME________________________________________________________*/
+
+.home ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.home ul{
+	padding: 0;
+}
+/*________________________________________________LOGIN________________________________________________________*/
+.inloggen input{
+	display: block;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.inloggen input[type=submit]{
+	width: 100px;
+}
+
+/*________________________________________________ARTIKELS OVERZICHT___________________________________________________________*/
+
+.cover_artikel{
+	height: 200px;
+	width: 155px;
+	border:  #0098DA solid thick;
+	margin-bottom: 10px;
+}
+
+.niet_verkrijgbaar{
+	color: red;
+}
+
+.weinig_verkrijgbaar{
+	color: orange;
+}
+
+.admin_screenshot{
+	width: 300px;
+	border:  #0098DA solid thick;
+}
+
+.cover_game{
+	height: 250px;
+	width: 190px;
+	border:  #0098DA solid thick;
+}
+
+.prijs_game{
+	font-size: 30px;
+}
+
+.verkrijgbaar_game
+{
+	color: green;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.niet_verkrijgbaar_game
+{
+	color: red;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+/*________________________________________________ARTIKELS DETAIL___________________________________________________________*/
+
+.info_game{
+	float: left;
+}
+
+.winkelkar_game
+{
+	width: 100px;
+}
+
+.screenshots_game{
+	width: 250px;
+	height: 150;
+	border:  #0098DA solid thick;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.trailer_game{
+	border:  #0098DA solid thick;
+	width: 420px;
+	height: 315px;
+}
+
+.review_game{
+	margin-left: 20px;
+}
+
+.review_plaatsen_game textarea{
+	width: 100%;
+}
+
+.review_plaatsen_game input{
+	margin-bottom: 10px;
+}
+
+/*________________________________________________ARTIKELS TOEVOEGEN___________________________________________________________*/
+
+.artikel_toevoegen input, select{
+	display: block;
+	width: 60%;
+	margin-bottom: 10px;
+}
+
+.artikel_toevoegen textarea{
+	width: 100%;
+}
+/*________________________________________________CONSOLES, GENRES, ONTWIKKELAARS, BESTELLINGEN_________________________________*/
+.tabel tr td{
+	width: 200px;
+	border-bottom:  #0098DA solid thin;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.tabel tr th{
+	font-size: 15px;
+}
+
+.tabel a{
+	color: #0098DA;
+}
+
+.tabel{
+	margin-bottom: 20px;
+}
+
+.toevoegen a{
+	font-size: 20px;
+	color: #0098DA;
+}
+
+.toevoegen{
+	padding: 20px 0 10px 0;
+}
+
+.verwijder{
+	margin-bottom: 20px;
+}
+
+.verwijder a{
+	color: white;
+	margin-right: 30px;
+	background-color: #0098DA;
+	padding: 10px;
+}
+
+/*________________________________________________BESTELLINGEN DETAILS__________________________________________*/
+
+.cover_detail{
+	height: 200px;
+	width: 155px;
+	border:  #0098DA solid thick;
+	margin-bottom: 10px;
+}
+
+.prijs_detail, .bedrag_detail{
+	font-size: 25px;
+}
+
+.spel_detail{
+	border-bottom:  #0098DA solid thick;
+}
+/*________________________________________________FOOTER________________________________________________________*/
+
+footer{
+	background-color: #0098DA;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
